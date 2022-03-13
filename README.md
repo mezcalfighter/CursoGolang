@@ -1,5 +1,5 @@
 # CursoGolang
- #GO - CLI
+ ##GO - CLI
  - go build  ---  Compiles a bunch of go source code files
 
  - go run --- Compiles and executes one or two files 
