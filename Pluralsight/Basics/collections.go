@@ -30,7 +30,9 @@ func main () {
 	fmt.Println(slice2)
 
 	//Creating slices
-	newSlice := make([]int, len(arr))
+	newSlice := make([]int, 0)
+	newSlice2 := make([]int, len(arr2))
 	newSlice = append(newSlice, 1)
+	newSlice2 = append(newSlice2, 1)
 	fmt.Println(newSlice)
 }
