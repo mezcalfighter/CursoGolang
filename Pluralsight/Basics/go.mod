@@ -1,3 +1,3 @@
-module github.com/CristianOrtega97/CursoGolang/Pluralsight/Basics/
+module github.com/CristianOrtega97/CursoGolang/Pluralsight/Basics
 
-go 1.12
+go 1.17
