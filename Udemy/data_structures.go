@@ -53,4 +53,7 @@ func main(){
 	type entero int 
 	var numero2 entero = 20
 	fmt.Println(numero2)
+
+	// Maps (dictionaries)
+	
 }

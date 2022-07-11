@@ -1,5 +1,4 @@
 // Maps are like dictionaries it might work with JSON files
-
 package main
 
 import(
