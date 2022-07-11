@@ -52,7 +52,7 @@ func romanToInt(s string) int {
 				finalResult += 5
 				break
 			case "X":
-				if  tempSlice[index+1] == "I" {
+				if  tempSlice[index+1] == "L" || tempSlice[index+1] == "C"{
 					finalResult -= 10
 					break
 				} else {
