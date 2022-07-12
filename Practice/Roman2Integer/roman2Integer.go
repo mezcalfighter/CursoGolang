@@ -5,6 +5,7 @@ import (
 )
 
 func romanToInt(s string) int {
+	romanValues := map[string]int{"I":1,"V":5,"X":10,"L":50,"C":100,"D":500,"M":1000}
 	var tempSlice []string
 	finalResult := 0
 	for index, v := range s {
@@ -15,29 +16,7 @@ func romanToInt(s string) int {
 	for index, v := range tempSlice {
 		_ = index
 		if index == len(tempSlice)-1 {
-			switch v {
-			case "I":
-				finalResult += 1
-				break
-			case "V":
-				finalResult += 5
-				break
-			case "X":
-				finalResult += 10
-				break
-			case "L":
-				finalResult += 50
-				break
-			case "C":
-				finalResult += 100
-				break
-			case "D":
-				finalResult += 500
-				break
-			case "M":
-				finalResult += 1000
-				break
-			}
+			finalResult += romanValues[v]
 		} else {
 			switch v {
 			case "I":
