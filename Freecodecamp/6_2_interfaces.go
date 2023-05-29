@@ -25,13 +25,13 @@ func (r rectangulo) area() float64{
 	return r.base * r.altura
 }
 
-func calculate(f figuras2D){
+func calcular(f figuras2D){
 	fmt.Println("Area", f.area())
 }
 
 func main(){
 	miCuadrado := cuadrado{base: 2}
 	miRectangulo := rectangulo{base: 4,altura: 5}
-	calculate(miCuadrado)
-	calculate(miRectangulo)
+	calcular(miCuadrado)
+	calcular(miRectangulo)
 }
