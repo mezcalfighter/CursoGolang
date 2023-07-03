@@ -23,4 +23,7 @@ func main() {
 
 	fmt.Printf("Comparason: %v", map1 == map2)
 
+	// to delete
+	
+
 }
